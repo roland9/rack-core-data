@@ -1,0 +1,8 @@
+source :rubygems
+
+gem 'rack-core-data', :require => 'rack/core-data', :path => File.join(__FILE__, "../..")
+gem 'sequel','3.37.0'
+gem 'faker'
+
+gem 'thin'
+gem 'pg'
